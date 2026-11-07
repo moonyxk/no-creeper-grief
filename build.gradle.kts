@@ -2,7 +2,7 @@ plugins {
     java
 }
 
-group = "io.github.moonyxk"
+group = "dev.moonyxk.nocreepergrief"
 version = "1.3.0"
 
 repositories {

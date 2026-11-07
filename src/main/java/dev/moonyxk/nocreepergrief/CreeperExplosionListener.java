@@ -1,4 +1,4 @@
-package io.github.moonyxk.nocreepergrief;
+package dev.moonyxk.nocreepergrief;
 
 import org.bukkit.entity.Creeper;
 import org.bukkit.event.EventHandler;

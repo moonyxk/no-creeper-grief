@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://www.schemastore.org/bukkit-plugin.json
 name: NoCreeperGrief
 version: '${version}'
-main: io.github.moonyxk.nocreepergrief.NoCreeperGriefPlugin
+main: dev.moonyxk.nocreepergrief.NoCreeperGriefPlugin
 api-version: '26.3'
-author: Jodek
+author: moonyxk
 description: Prevents creeper explosions from destroying blocks.

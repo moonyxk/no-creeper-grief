@@ -2,27 +2,18 @@
   
 ![No Creeper Grief](https://assets.jodek.dev/title/no_creeper_grief.png)
 
-[![jodeks datapacks discord](https://assets.jodek.dev/badge/discord.png)](https://discord.gg/z2n3qTzQY6)&nbsp;&nbsp;
-[![datapacks jodek youtube](https://assets.jodek.dev/badge/youtube.png)](https://www.youtube.com/@jodek)&nbsp;&nbsp;
-[![no creeper grief minecraft datapack codeberg issues](https://assets.jodek.dev/badge/codeberg_issues.png)](https://codeberg.org/jodeks-datapacks/no-creeper-giref/issues)&nbsp;&nbsp;
-[![jodeks datapacks kofi](https://assets.jodek.dev/badge/kofi.png)](https://ko-fi.com/jodek)
+[Issues](https://github.com/moonyxk/no-creeper-grief/issues)
 
 ## Creeper no longer destroy blocks
 
 ![creeper no block destruction, no creeper grief, creeper grief disabled](https://assets.jodek.dev/gif/no_creeper_grief.gif)
 
-&nbsp;
-
-[![jodek datapack suggestions](https://assets.jodek.dev/badge/new_datapack_suggestion.png)](https://codeberg.org/jodeks-datapacks/.profile/issues/new?template=.forgejo%2fISSUE_TEMPLATE%2fdatapack_request.yaml)
-
-&nbsp;
-
 </div>
 
 ## Paper plugin
 
-This project is a Paper plugin for Minecraft 26.3, adapted from the No Creeper
-Grief datapack by Jodek. It requires Java 25.
+This project is a Paper plugin for Minecraft 26.3 by moonyxk, adapted from the
+No Creeper Grief datapack by Jodek. It requires Java 25.
 
 Creeper explosions use the original datapack's radius of `-3`; charged creepers
 use `-6`, matching Minecraft's explosion multiplier. This prevents block
