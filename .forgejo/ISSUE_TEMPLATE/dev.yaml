@@ -1,0 +1,12 @@
+name: "--dev--"
+about: "blank issue"
+title: ""
+labels:
+  - dev
+body:
+  - type: input
+    id: description
+    attributes:
+      label: "Description"
+    validations:
+      required: false

@@ -1,0 +1,17 @@
+name: Sync description
+on:
+  push:
+    branches:
+      [
+        main,
+      ]
+    paths:
+      [
+        README.md,
+      ]
+  workflow_dispatch:
+jobs:
+  sync:
+    uses: jodeks-datapacks/.forgejo/.forgejo/workflows/sync-description.yml@main
+    secrets:
+      MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}

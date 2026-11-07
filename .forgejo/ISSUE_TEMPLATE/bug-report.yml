@@ -1,0 +1,28 @@
+name: "Bug Report"
+about: "Report an issue you encountered"
+title: "[BUG] "
+labels:
+  - bug
+body:
+  - type: input
+    id: game-version
+    attributes:
+      label: "Game Version"
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behaviour
+    attributes:
+      label: "Actual Behaviour"
+      description: "What is happening?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behaviour
+    attributes:
+      label: "Expected Behaviour"
+      description: "What should have happened instead?"
+    validations:
+      required: false
