@@ -26,10 +26,10 @@ java {
 }
 
 tasks.processResources {
-    val properties = mapOf("version" to project.version)
-    inputs.properties(properties)
+    val pluginVersion = project.version.toString()
+    inputs.property("version", pluginVersion)
     filesMatching("plugin.yml") {
-        expand(properties)
+        filter { line -> line.replace("\${version}", pluginVersion) }
     }
 }
 

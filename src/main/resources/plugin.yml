@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://www.schemastore.org/bukkit-plugin.json
 name: NoCreeperGrief
 version: '${version}'
 main: io.github.moonyxk.nocreepergrief.NoCreeperGriefPlugin
