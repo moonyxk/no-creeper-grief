@@ -1,0 +1,6 @@
+name: NoCreeperGrief
+version: '${version}'
+main: io.github.moonyxk.nocreepergrief.NoCreeperGriefPlugin
+api-version: '26.3'
+author: Jodek
+description: Prevents creeper explosions from destroying blocks.

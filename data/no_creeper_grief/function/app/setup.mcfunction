@@ -1,1 +1,0 @@
-schedule function no_creeper_grief:app/execute 1s
